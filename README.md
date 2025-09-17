@@ -73,7 +73,6 @@ A estrutura de pacotes é a chave para a modularidade do seu projeto. Cada módu
 │   │   │   └── com/sistema/matematica/
 │   │   │       ├── Main.java                             # Classe principal para iniciar a aplicação
 │   │   │       ├── desafio/                              # Módulo de Desafios (Padrão Strategy)
-│   │   │       │   ├── IProblemaMatematico.java
 │   │   │       │   ├── strategy/
 │   │   │       │   │   ├── SomaStrategy.java
 │   │   │       │   │   ├── SubtracaoStrategy.java
@@ -82,6 +81,7 @@ A estrutura de pacotes é a chave para a modularidade do seu projeto. Cada módu
 │   │   │       │   │   ├── PotenciaStrategy.java
 │   │   │       │   │   └── RaizStrategy.java
 │   │   │       │   ├── ProblemaFactory.java              # Padrão Factory Method
+│   │   │       │   ├── IProblemaMatematico.java
 │   │   │       │   └── Desafio.java
 │   │   │       │   
 │   │   │       ├── gamificacao/                          # Módulo de Gamificação
