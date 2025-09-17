@@ -1,4 +1,4 @@
-# Trabalho de ...
+# Trabalho de Plataforma Colaborativa de Aprendizagem Gamificada
 
 - **Instituição:** Instituto Federal da Bahia (IFBA)
 - **Curso:** Análise e Desenvolvimento de Sistemas (ADS)
@@ -8,7 +8,7 @@
 - **Semestre:** 5
 - **Ano:** 2025.1
 
-## Descrição do projeto: ...
+## Descrição do projeto: Sistema de Conhecimento em Matemática
 Desenvolver uma plataforma de aprendizagem gamificada, aplicando padrões de projeto (GOF) e princípios SOLID, com foco em modularidade, extensibilidade e divisão equilibrada de responsabilidades entre os integrantes do grupo.
 
 O projeto deve simular um ambiente educacional interativo, em que alunos participam de desafios, acumulam pontos, conquistam medalhas e interagem em um mural coletivo.
@@ -63,9 +63,61 @@ Deverá aplicar no mínimo 7 padrões distintos, sendo:
 - **Linguagem:** Java 21
 
 ## Estrutura do Projeto
+A estrutura de pacotes é a chave para a modularidade do seu projeto. Cada módulo ou componente deve ter seu próprio pacote, garantindo o princípio de Responsabilidade Única (SRP) e facilitando a organização. A estrutura é baseada em Maven para facilitar o gerenciamento de dependências e a compilação.
+
+```
+/sistema-matematica
+├── src/
+│   ├── main/
+│   │   ├── java/
+│   │   │   └── com/sistema/matematica/
+│   │   │       ├── Main.java                             # Classe principal para iniciar a aplicação
+│   │   │       ├── desafio/                              # Módulo de Desafios (Padrão Strategy)
+│   │   │       │   ├── IProblemaMatematico.java
+│   │   │       │   ├── strategy/
+│   │   │       │   │   ├── SomaStrategy.java
+│   │   │       │   │   ├── SubtracaoStrategy.java
+│   │   │       │   │   ├── MultiplicacaoStrategy.java
+│   │   │       │   │   ├── DivisaoStrategy.java
+│   │   │       │   │   ├── PotenciaStrategy.java
+│   │   │       │   │   └── RaizStrategy.java
+│   │   │       │   ├── ProblemaFactory.java              # Padrão Factory Method
+│   │   │       │   └── Desafio.java
+│   │   │       │   
+│   │   │       ├── gamificacao/                          # Módulo de Gamificação
+│   │   │       │   ├── modelo/
+│   │   │       │   │   ├── Aluno.java
+│   │   │       │   │   ├── Pontuacao.java
+│   │   │       │   │   └── Medalha.java
+│   │   │       │   ├── gerenciador/
+│   │   │       │   │   ├── GerenciadorPontuacao.java
+│   │   │       │   │   └── GerenciadorMedalhas.java
+│   │   │       │   └── observer/                         # Padrão Observer
+│   │   │       │       ├── IObserver.java
+│   │   │       │       ├── MuralColetivo.java
+│   │   │       │       └── ConquistaObserver.java
+│   │   │       │   
+│   │   │       └── util/                                 # Módulo de utilidades
+│   │   │           └── Logger.java
+│   │   └── resources/
+│   │       └── config.properties
+│   │   
+│   └── test/
+│       └── java/
+│           └── com/sistema/matematica/
+│               ├── desafio/
+│               │   └── ProblemaMatematicoTest.java
+│               └── gamificacao/
+│                   └── GerenciadorPontuacaoTest.java
+│
+├── pom.xml                                               # Arquivo de configuração do Maven
+└── README.md
+```
 
 ## UML
 
 ## Documentação
+
+https://docs.google.com/document/d/1beZO7KMC_pAvIYz_fktU6f7bppvh_SbKrem1Q0h-_v0/edit?usp=sharing
 
 ## Apresentação
