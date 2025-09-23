@@ -115,9 +115,11 @@ A estrutura de pacotes é a chave para a modularidade do seu projeto. Cada módu
 ```
 
 ## UML
+Diagrama de Classes: 
 
 <img width="3840" height="1448" alt="Untitled diagram _ Mermaid Chart-2025-09-21-110940" src="https://github.com/user-attachments/assets/81eb3929-a812-4ee1-baba-4c28339fdeb0" />
 
+Diagrama de Sequência:
 <img width="3840" height="1328" alt="Untitled diagram _ Mermaid Chart-2025-09-21-111229" src="https://github.com/user-attachments/assets/12071de4-822e-455b-8850-f3d499fb2bb4" />
 
 
