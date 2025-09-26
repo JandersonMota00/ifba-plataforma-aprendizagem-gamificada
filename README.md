@@ -66,51 +66,42 @@ Deverá aplicar no mínimo 7 padrões distintos, sendo:
 A estrutura de pacotes é a chave para a modularidade do seu projeto. Cada módulo ou componente deve ter seu próprio pacote, garantindo o princípio de Responsabilidade Única (SRP) e facilitando a organização. A estrutura é baseada em Maven para facilitar o gerenciamento de dependências e a compilação.
 
 ```
-/sistema-matematica
-├── src/
-│   ├── main/
-│   │   ├── java/
-│   │   │   └── com/sistema/matematica/
-│   │   │       ├── Main.java                             # Classe principal para iniciar a aplicação
-│   │   │       ├── desafio/                              # Módulo de Desafios (Padrão Strategy)
-│   │   │       │   ├── strategy/
-│   │   │       │   │   ├── SomaStrategy.java
-│   │   │       │   │   ├── SubtracaoStrategy.java
-│   │   │       │   │   ├── MultiplicacaoStrategy.java
-│   │   │       │   │   ├── DivisaoStrategy.java
-│   │   │       │   │   ├── PotenciaStrategy.java
-│   │   │       │   │   └── RaizStrategy.java
-│   │   │       │   ├── ProblemaFactory.java              # Padrão Factory Method
-│   │   │       │   ├── IProblemaMatematico.java
-│   │   │       │   └── Desafio.java
-│   │   │       │   
-│   │   │       ├── gamificacao/                          # Módulo de Gamificação
-│   │   │       │   ├── modelo/
-│   │   │       │   │   ├── Aluno.java
-│   │   │       │   │   ├── Pontuacao.java
-│   │   │       │   │   └── Medalha.java
-│   │   │       │   ├── gerenciador/
-│   │   │       │   │   ├── GerenciadorPontuacao.java
-│   │   │       │   │   └── GerenciadorMedalhas.java
-│   │   │       │   └── observer/                         # Padrão Observer
-│   │   │       │       ├── IObserver.java
-│   │   │       │       ├── MuralColetivo.java
-│   │   │       │       └── ConquistaObserver.java
-│   │   │       │   
-│   │   │       └── util/                                 # Módulo de utilidades
-│   │   │           └── Logger.java
-│   │   └── resources/
-│   │       └── config.properties
-│   │   
-│   └── test/
-│       └── java/
-│           └── com/sistema/matematica/
-│               ├── desafio/
-│               │   └── ProblemaMatematicoTest.java
-│               └── gamificacao/
-│                   └── GerenciadorPontuacaoTest.java
+/ifba-plataforma-aprendizagem-gamificada
+├── sistema-matematica/
+|   └── src/
+│       └── main/
+│           ├── java/
+│           │   └── com/sistema/matematica/
+│           │       ├── Main.java                             # Classe principal para iniciar a aplicação
+│           │       ├── desafio/                              # Módulo de Desafios (Padrão Strategy)
+│           │       │   ├── strategy/
+│           │       │   │   ├── SomaStrategy.java
+│           │       │   │   ├── SubtracaoStrategy.java
+│           │       │   │   ├── MultiplicacaoStrategy.java
+│           │       │   │   ├── DivisaoStrategy.java
+│           │       │   │   ├── PotenciaStrategy.java
+│           │       │   │   └── RaizStrategy.java
+│           │       │   ├── ProblemaFactory.java              # Padrão Factory Method
+│           │       │   ├── IProblemaMatematico.java
+│           │       │   └── Desafio.java
+│           │       │   
+│           │       ├── gamificacao/                          # Módulo de Gamificação
+│           │       │   ├── modelo/
+│           │       │   │   ├── Aluno.java
+│           │       │   │   ├── Pontuacao.java
+│           │       │   │   └── Medalha.java
+│           │       │   ├── gerenciador/
+│           │       │   │   ├── GerenciadorPontuacao.java
+│           │       │   │   └── GerenciadorMedalhas.java
+│           │       │   └── observer/                         # Padrão Observer
+│           │       │       ├── IObserver.java
+│           │       │       ├── MuralColetivo.java
+│           │       │       └── ConquistaObserver.java
+│           │       │   
+│           │       └── util/                                 # Módulo de utilidades
+│           │           └── Logger.java
+│           └── resources/
 │
-├── pom.xml                                               # Arquivo de configuração do Maven
 └── README.md
 ```
 
