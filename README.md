@@ -113,7 +113,46 @@ Diagrama de Classes:
 Diagrama de Sequência:
 <img width="3840" height="1328" alt="Untitled diagram _ Mermaid Chart-2025-09-21-111229" src="https://github.com/user-attachments/assets/12071de4-822e-455b-8850-f3d499fb2bb4" />
 
+## Telas de execução
+Quando executa o código:
 
+<img width="304" height="119" alt="image" src="https://github.com/user-attachments/assets/38e4f32e-9639-4b3e-9a1e-0233c4f40450" />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+<img width="298" height="119" alt="image" src="https://github.com/user-attachments/assets/fc2d5957-2798-4f9c-ac15-39caf934a469" />
+
+<br><br>
+
+<img width="306" height="82" alt="image" src="https://github.com/user-attachments/assets/42c72b44-4320-4c11-9029-eb2a09557cb6" />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+<img width="305" height="122" alt="image" src="https://github.com/user-attachments/assets/0b1d2583-41bc-4cf6-92d2-6a9b54d3e341" />
+
+<br><br>
+
+<img width="306" height="70" alt="image" src="https://github.com/user-attachments/assets/c66fb968-95de-47e9-accd-2801f434de12" />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+<img width="304" height="116" alt="image" src="https://github.com/user-attachments/assets/fbc1f4c6-b90b-43b1-96d8-f3c8c0d5aeb0" />
+
+<br><br>
+
+<img width="274" height="76" alt="image" src="https://github.com/user-attachments/assets/c0365aff-b2dd-4c91-b3e2-1d0409ec99ba" />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+<img width="273" height="114" alt="image" src="https://github.com/user-attachments/assets/50a8d7e4-1bfc-4146-8907-3d77b3e1ec51" />
+
+<br><br>
+
+<img width="274" height="72" alt="image" src="https://github.com/user-attachments/assets/46c57bbd-387c-4faf-ac2f-14a128172c09" />
+&nbsp;
+<img width="724" height="136" alt="image" src="https://github.com/user-attachments/assets/3c313439-6642-480a-a5e6-85cd961c964c" />
+
+<br><br>
+
+<img width="249" height="73" alt="image" src="https://github.com/user-attachments/assets/d0927ac8-bc6c-4039-b253-4fd29d78ffbd" />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+<img width="369" height="98" alt="image" src="https://github.com/user-attachments/assets/6868c952-f0f7-4f3c-a6b0-82fab9926420" />
+
+<br><br>
+
+<img width="359" height="139" alt="image" src="https://github.com/user-attachments/assets/ecc38e4d-1c8b-444e-813f-f5782299f130" />
 
 ## Documentação
 
